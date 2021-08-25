@@ -1,6 +1,6 @@
 provider "google" {
   project = "mounikaproject"
-  credentials = file("terraform.json")
+  credentials = file("key.json")
   region  = "europe-west2"
   zone    = "europe-west2-a"
 }
